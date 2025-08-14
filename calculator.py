@@ -95,9 +95,7 @@ def remove_decimal(num)
         elif value == "%":
           result = float(label["text"] / 100)
           label["text"] = remove_decimal(result)
-        elif value == "√":
-          result = float(label["text"] / )
-          label["text"] = remove_decimal(result)
+        
     else:
       if value == ".":
           if value not in label["text"]:
